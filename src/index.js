@@ -52,6 +52,7 @@ import dutch from './translations/Nederlands';
 import english from './translations/English';
 import french from './translations/Français';
 import german from './translations/Deutsch';
+import hungarian from './translations/Hungarian';
 import indonesian from './translations/Bahasa_Indonesia';
 import japanese from './translations/日本語';
 import korean from './translations/한국어';
@@ -68,6 +69,7 @@ Monogatari._translations = {
 	'English': english,
 	'Español': spanish,
 	'Français': french,
+	'Magyar': hungarian,
 	'Nederlands': dutch,
 	'Português': portuguese,
 	'Русский': russian,
@@ -102,6 +104,10 @@ Monogatari._languageMetadata = {
 	'Français': {
 		code: 'fr',
 		icon: '🇫🇷'
+	},
+	'Magyar': {
+		code: 'hu',
+		icon: '🇭🇺'
 	},
 	'Nederlands': {
 		code: 'nl',
